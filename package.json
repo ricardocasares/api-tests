@@ -1,0 +1,26 @@
+{
+  "name": "api-tests",
+  "version": "0.0.1",
+  "main": "",
+  "license": "MIT",
+  "author": "Ricardo Casares (https://analogic.al)",
+  "homepage": "https://github.com/ricardocasares/api-tests#readme",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardocasares/api-tests.git"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "test": "jest api.test.js",
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardocasares/api-tests/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.1.0",
+    "supertest": "^6.1.6"
+  }
+}
